@@ -1,12 +1,12 @@
 // Function to check for aliases
 function checkForAlias(name) {
-    const aliases = {
-        "random256": "rsha256",
-        "b747": "praj",
-        "ghoulean": "js",
-        "jskingboo": "js"
-    }
-    return aliases[name] ? aliases[name] : name
+  const aliases = {
+    random256: "rsha256",
+    b747: "praj",
+    ghoulean: "js",
+    jskingboo: "js",
+  };
+  return aliases[name] ? aliases[name] : name;
 }
 
 // Function to calculate ELO
@@ -88,8 +88,11 @@ function fetchData(url) {
   });
 }
 
+// Global chart variable
+let chart = null;
+
 // Function to initialize ELO tracking and create the chart
-function initializeELOChart(seasons) {
+function initializeELOChart(seasons, includePlayoffs = true) {
   let x_axis = [""];
   let elos = {};
   for (const [seasonIndex, season] of seasons.entries()) {
@@ -101,16 +104,26 @@ function initializeELOChart(seasons) {
       processGames(weekGames, elos, x_axis_index);
     });
 
-    season.playoffs.forEach((playoffGames, playoffIndex) => {
-      let x_axis_index = x_axis.length + season.weeks.length + playoffIndex;
-      weeks.push(`s${seasonIndex + 1}p${playoffIndex + 1}`);
-      processGames(playoffGames, elos, x_axis_index);
-    });
+    if (includePlayoffs) {
+      season.playoffs.forEach((playoffGames, playoffIndex) => {
+        let x_axis_index = x_axis.length + season.weeks.length + playoffIndex;
+        weeks.push(`s${seasonIndex + 1}p${playoffIndex + 1}`);
+        processGames(playoffGames, elos, x_axis_index);
+      });
+    }
 
     x_axis = x_axis.concat(weeks);
   }
 
   createChart(x_axis, elos);
+}
+
+function removeData(chart) {
+  chart.data.labels.pop();
+  chart.data.datasets.forEach((dataset) => {
+    dataset.data.pop();
+  });
+  chart.update();
 }
 
 // Function to create the chart
@@ -151,81 +164,92 @@ function createChart(weeks, elos) {
         100
     ) * 100;
 
-  const ctx = document.getElementById("eloChart").getContext("2d");
-  const chart = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: weeks,
-      datasets: datasets,
-    },
-    options: {
-      plugins: {
-        legend: {
-          display: false,
-        },
+  if (!chart) {
+    const ctx = document.getElementById("eloChart").getContext("2d");
+    chart = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: weeks,
+        datasets: datasets,
       },
-      scales: {
-        y: {
-          grid: { display: false },
-          beginAtZero: true,
-          min: y_min,
-          max: y_max,
-          ticks: {
-            callback: function (value) {
-              return value; // returns the value without formatting
+      options: {
+        plugins: {
+          legend: {
+            display: false,
+          },
+        },
+        scales: {
+          y: {
+            grid: { display: false },
+            beginAtZero: true,
+            min: y_min,
+            max: y_max,
+            ticks: {
+              callback: function (value) {
+                return value; // returns the value without formatting
+              },
             },
           },
         },
-      },
-      elements: {
-        line: {
-          tension: 0.4, // Smoother curves; set to 0 for straight lines
+        elements: {
+          line: {
+            tension: 0.4, // Smoother curves; set to 0 for straight lines
+          },
         },
       },
-    },
-  });
+    });
+    let currently_selected = undefined;
+    function select_line(event) {
+      const activePoints = chart.getElementsAtEventForMode(
+        event,
+        "nearest",
+        { intersect: true },
+        false
+      );
 
-  let currently_selected = undefined;
-  function select_line(event) {
-    const activePoints = chart.getElementsAtEventForMode(
-      event,
-      "nearest",
-      { intersect: true },
-      false
-    );
+      if (activePoints.length) {
+        const clickedDatasetIndex = activePoints[0].datasetIndex; // Identify clicked dataset
 
-    if (activePoints.length) {
-      const clickedDatasetIndex = activePoints[0].datasetIndex; // Identify clicked dataset
-
-      // Deselect if double-clicking...
-      if (clickedDatasetIndex === currently_selected) {
-        deselect_line();
+        // Deselect if double-clicking...
+        if (clickedDatasetIndex === currently_selected) {
+          deselect_line();
+        } else {
+          currently_selected = clickedDatasetIndex;
+          // Fade out other lines
+          chart.data.datasets.forEach((dataset, index) => {
+            dataset.borderWidth = index === clickedDatasetIndex ? 3 : 0.5; // Thicker line for the selected dataset
+          });
+        }
+        chart.update(); // Redraw the chart
       } else {
-        currently_selected = clickedDatasetIndex;
-        // Fade out other lines
-        chart.data.datasets.forEach((dataset, index) => {
-          dataset.borderWidth = index === clickedDatasetIndex ? 3 : 0.5; // Thicker line for the selected dataset
-        });
-      }
-      chart.update(); // Redraw the chart
-    } else {
-      // ... or if just clicking anywhere on the canvas.
-      if (currently_selected) {
-        deselect_line();
-        chart.update();
+        // ... or if just clicking anywhere on the canvas.
+        if (currently_selected) {
+          deselect_line();
+          chart.update();
+        }
       }
     }
-  }
 
-  function deselect_line() {
-    currently_selected = undefined;
-    chart.data.datasets.forEach((dataset) => {
-      dataset.borderWidth = undefined; // Reset border width
-    });
-  }
+    function deselect_line() {
+      currently_selected = undefined;
+      chart.data.datasets.forEach((dataset) => {
+        dataset.borderWidth = undefined; // Reset border width
+      });
+    }
 
-  // Add event listeners for click and mouseout
-  ctx.canvas.addEventListener("click", select_line);
+    // Add event listeners for click and mouseout
+    ctx.canvas.addEventListener("click", select_line);
+  } else {
+    removeData(chart);
+    chart.data = {
+      labels: weeks,
+      datasets: datasets,
+    };
+    chart.options.scales.y.min = y_min;
+    chart.options.scales.y.max = y_max;
+    // Update without animation. TODO: Clean this up.
+    chart.update("none");
+  }
 }
 
 // Function to get a random color for line
@@ -251,6 +275,22 @@ function main() {
       console.error("Error:", error);
     });
 }
+
+// Add event listener for the playoff toggle
+document
+  .getElementById("playoffsToggle")
+  .addEventListener("change", function () {
+    const includePlayoffs = this.checked;
+    // Re-fetch and re-initialize the chart
+    const urls = ["./data/s1.json", "./data/s2.json", "./data/s3.json"];
+    Promise.all(urls.map(fetchData))
+      .then((data) => {
+        initializeELOChart(data, includePlayoffs);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+  });
 
 // Run the main function
 main();
