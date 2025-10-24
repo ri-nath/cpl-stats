@@ -1,0 +1,383 @@
+{
+    "weeks": [
+        [
+            {
+                "w": "insideoutside",
+                "l": "Namu",
+                "diff": "2"
+            },
+            {
+                "w": "rssp1",
+                "l": "LuminousFox",
+                "diff": "5"
+            },
+            {
+                "w": "Tezzy",
+                "l": "joseph",
+                "diff": "5"
+            },
+            {
+                "w": "Tifftiff",
+                "l": "rsha256",
+                "diff": "3"
+            },
+            {
+                "w": "Materia",
+                "l": "SonnyDayz",
+                "diff": "1"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "WiseGuy",
+                "diff": "2"
+            },
+            {
+                "w": "Squigs",
+                "l": "praj",
+                "diff": "5"
+            },
+            {
+                "w": "blerg",
+                "l": "MB12",
+                "diff": "4"
+            }
+        ],
+        [
+            {
+                "w": "insideoutside",
+                "l": "rsha256",
+                "diff": "4"
+            },
+            {
+                "w": "blerg",
+                "l": "SonnyDayz",
+                "diff": "5"
+            },
+            {
+                "w": "rssp1",
+                "l": "Namu",
+                "diff": "3"
+            },
+            {
+                "w": "Squigs",
+                "l": "Tifftiff",
+                "diff": "4"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "LuminousFox",
+                "diff": "1"
+            },
+            {
+                "w": "Materia",
+                "l": "praj",
+                "diff": "2"
+            },
+            {
+                "w": "MB12",
+                "l": "joseph",
+                "diff": "1"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Tezzy",
+                "diff": "1"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "praj",
+                "diff": "5"
+            },
+            {
+                "w": "Squigs",
+                "l": "rsha256",
+                "diff": "3"
+            },
+            {
+                "w": "SonnyDayz",
+                "l": "joseph",
+                "diff": "1"
+            },
+            {
+                "w": "Tezzy",
+                "l": "LuminousFox",
+                "diff": "6"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Namu",
+                "diff": "4"
+            },
+            {
+                "w": "MB12",
+                "l": "brokenmotor",
+                "diff": "2"
+            },
+            {
+                "w": "rssp1",
+                "l": "insideoutside",
+                "diff": "1"
+            },
+            {
+                "w": "Tifftiff",
+                "l": "Materia",
+                "diff": "1"
+            }
+        ],
+        [
+            {
+                "w": "WiseGuy",
+                "l": "insideoutside",
+                "diff": "3"
+            },
+            {
+                "w": "LuminousFox",
+                "l": "MB12",
+                "diff": "4"
+            },
+            {
+                "w": "blerg",
+                "l": "Tifftiff",
+                "diff": "5"
+            },
+            {
+                "w": "joseph",
+                "l": "praj",
+                "diff": "5"
+            },
+            {
+                "w": "Tezzy",
+                "l": "Namu",
+                "diff": "1"
+            },
+            {
+                "w": "rsha256",
+                "l": "rssp1",
+                "diff": "3"
+            },
+            {
+                "w": "Materia",
+                "l": "Squigs",
+                "diff": "2"
+            },
+            {
+                "w": "SonnyDayz",
+                "l": "brokenmotor",
+                "diff": "1"
+            }
+        ],
+        [
+            {
+                "w": "Squigs",
+                "l": "blerg",
+                "diff": "5"
+            },
+            {
+                "w": "insideoutside",
+                "l": "Tezzy",
+                "diff": "3"
+            },
+            {
+                "w": "joseph",
+                "l": "Tifftiff",
+                "diff": "5"
+            },
+            {
+                "w": "rssp1",
+                "l": "WiseGuy",
+                "diff": "5"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "praj",
+                "diff": "2"
+            },
+            {
+                "w": "Materia",
+                "l": "rsha256",
+                "diff": "3"
+            },
+            {
+                "w": "Namu",
+                "l": "MB12",
+                "diff": "5"
+            },
+            {
+                "w": "LuminousFox",
+                "l": "SonnyDayz",
+                "diff": "2"
+            }
+        ],
+        [
+            {
+                "w": "MB12",
+                "l": "insideoutside",
+                "diff": "4"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Tifftiff",
+                "diff": "5"
+            },
+            {
+                "w": "joseph",
+                "l": "Squigs",
+                "diff": "5"
+            },
+            {
+                "w": "Namu",
+                "l": "SonnyDayz",
+                "diff": "3"
+            },
+            {
+                "w": "rssp1",
+                "l": "Tezzy",
+                "diff": "3"
+            },
+            {
+                "w": "praj",
+                "l": "LuminousFox",
+                "diff": "1"
+            },
+            {
+                "w": "blerg",
+                "l": "Materia",
+                "diff": "2"
+            },
+            {
+                "w": "rsha256",
+                "l": "WiseGuy",
+                "diff": "5"
+            }
+        ],
+        [
+            {
+                "w": "joseph",
+                "l": "Materia",
+                "diff": "5"
+            },
+            {
+                "w": "Namu",
+                "l": "praj",
+                "diff": "4"
+            },
+            {
+                "w": "Tezzy",
+                "l": "WiseGuy",
+                "diff": "5"
+            },
+            {
+                "w": "LuminousFox",
+                "l": "Tifftiff",
+                "diff": "4"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Squigs",
+                "diff": "3"
+            },
+            {
+                "w": "blerg",
+                "l": "rsha256",
+                "diff": "4"
+            },
+            {
+                "w": "insideoutside",
+                "l": "SonnyDayz",
+                "diff": "4"
+            },
+            {
+                "w": "rssp1",
+                "l": "MB12",
+                "diff": "3"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "joseph",
+                "diff": "1"
+            },
+            {
+                "w": "Tezzy",
+                "l": "rsha256",
+                "diff": "6"
+            },
+            {
+                "w": "Squigs",
+                "l": "LuminousFox",
+                "diff": "3"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "MB12",
+                "diff": "3"
+            },
+            {
+                "w": "rssp1",
+                "l": "SonnyDayz",
+                "diff": "3"
+            },
+            {
+                "w": "praj",
+                "l": "insideoutside",
+                "diff": "6"
+            },
+            {
+                "w": "Namu",
+                "l": "Tifftiff",
+                "diff": "2"
+            },
+            {
+                "w": "Materia",
+                "l": "brokenmotor",
+                "diff": "3"
+            }
+        ]
+    ],
+    "playoffs": [
+        [
+            {
+                "w": "blerg",
+                "l": "joseph",
+                "diff": "3"
+            },
+            {
+                "w": "insideoutside",
+                "l": "Squigs",
+                "diff": "2"
+            },
+            {
+                "w": "Tezzy",
+                "l": "brokenmotor",
+                "diff": "6"
+            },
+            {
+                "w": "rssp1",
+                "l": "Materia",
+                "diff": "3"
+            }
+        ],
+        [
+            {
+                "w": "insideoutside",
+                "l": "blerg",
+                "diff": "3"
+            },
+            {
+                "w": "Tezzy",
+                "l": "rssp1",
+                "diff": "1"
+            }
+        ],
+        [
+            {
+                "w": "Tezzy",
+                "l": "insideoutside",
+                "diff": "2"
+            }
+        ]
+    ]
+}

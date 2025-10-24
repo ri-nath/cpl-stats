@@ -1,0 +1,385 @@
+{
+    "weeks": [
+        [
+            {
+                "w": "kyanako",
+                "l": "B747",
+                "diff": "2"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "JsKingBoo",
+                "diff": "3"
+            },
+            {
+                "w": "RAY of Darkness",
+                "l": "Squigs",
+                "diff": "5"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "blerg",
+                "diff": "2"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Childish_Android",
+                "diff": "5"
+            },
+            {
+                "w": "Namu",
+                "l": "Crimsonflash20",
+                "diff": "6"
+            },
+            {
+                "w": "random256",
+                "l": "Litwixen",
+                "diff": "5"
+            },
+            {
+                "w": "Adrianf",
+                "l": "BaronBnuy",
+                "diff": "5"
+            }
+        ],
+        [
+            {
+                "w": "RAY of Darkness",
+                "l": "kyanako",
+                "diff": "6"
+            },
+            {
+                "w": "JsKingBoo",
+                "l": "Crimsonflash20",
+                "diff": "3"
+            },
+            {
+                "w": "blerg",
+                "l": "Squigs",
+                "diff": "2"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "random256",
+                "diff": "3"
+            },
+            {
+                "w": "Namu",
+                "l": "BaronBnuy",
+                "diff": "3"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "Childish_Android",
+                "diff": "5"
+            },
+            {
+                "w": "B747",
+                "l": "Adrianf",
+                "diff": "1"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Litwixen",
+                "diff": "6"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "kyanako",
+                "diff": "2"
+            },
+            {
+                "w": "JsKingBoo",
+                "l": "BaronBnuy",
+                "diff": "3"
+            },
+            {
+                "w": "RAY of Darkness",
+                "l": "Adrianf",
+                "diff": "4"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Litwixen",
+                "diff": "6"
+            },
+            {
+                "w": "Namu",
+                "l": "B747",
+                "diff": "6"
+            },
+            {
+                "w": "random256",
+                "l": "Mr. Banana Thief",
+                "diff": "4"
+            },
+            {
+                "w": "Childish_Android",
+                "l": "Crimsonflash20",
+                "diff": "4"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Squigs",
+                "diff": "1"
+            }
+        ],
+        [
+            {
+                "w": "kyanako",
+                "l": "Squigs",
+                "diff": "3"
+            },
+            {
+                "w": "JsKingBoo",
+                "l": "B747",
+                "diff": "5"
+            },
+            {
+                "w": "Namu",
+                "l": "RAY of Darkness",
+                "diff": "3"
+            },
+            {
+                "w": "blerg",
+                "l": "Adrianf",
+                "diff": "5"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "WiseGuy",
+                "diff": "1"
+            },
+            {
+                "w": "random256",
+                "l": "Crimsonflash20",
+                "diff": "4"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "Litwixen",
+                "diff": "6"
+            },
+            {
+                "w": "BaronBnuy",
+                "l": "Childish_Android",
+                "diff": "3"
+            }
+        ],
+        [
+            {
+                "w": "WiseGuy",
+                "l": "kyanako",
+                "diff": "2"
+            },
+            {
+                "w": "RAY of Darkness",
+                "l": "JsKingBoo",
+                "diff": "2"
+            },
+            {
+                "w": "blerg",
+                "l": "Namu",
+                "diff": "1"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Mr. Banana Thief",
+                "diff": "4"
+            },
+            {
+                "w": "random256",
+                "l": "BaronBnuy",
+                "diff": "6"
+            },
+            {
+                "w": "Litwixen",
+                "l": "Crimsonflash20",
+                "diff": "1"
+            },
+            {
+                "w": "B747",
+                "l": "Childish_Android",
+                "diff": "3"
+            },
+            {
+                "w": "Adrianf",
+                "l": "Squigs",
+                "diff": "2"
+            }
+        ],
+        [
+            {
+                "w": "kyanako",
+                "l": "Adrianf",
+                "diff": "5"
+            },
+            {
+                "w": "JsKingBoo",
+                "l": "blerg",
+                "diff": "1"
+            },
+            {
+                "w": "RAY of Darkness",
+                "l": "Childish_Android",
+                "diff": "6"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Crimsonflash20",
+                "diff": "2"
+            },
+            {
+                "w": "Squigs",
+                "l": "Namu",
+                "diff": "2"
+            },
+            {
+                "w": "random256",
+                "l": "B747",
+                "diff": "4"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "WiseGuy",
+                "diff": "3"
+            },
+            {
+                "w": "BaronBnuy",
+                "l": "Litwixen",
+                "diff": "3"
+            }
+        ],
+        [
+            {
+                "w": "kyanako",
+                "l": "Namu",
+                "diff": "5"
+            },
+            {
+                "w": "JsKingBoo",
+                "l": "Squigs",
+                "diff": "1"
+            },
+            {
+                "w": "random256",
+                "l": "RAY of Darkness",
+                "diff": "6"
+            },
+            {
+                "w": "blerg",
+                "l": "Childish_Android",
+                "diff": "6"
+            },
+            {
+                "w": "BaronBnuy",
+                "l": "brokenmotor",
+                "diff": "3"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "Crimsonflash20",
+                "diff": "1"
+            },
+            {
+                "w": "B747",
+                "l": "Litwixen",
+                "diff": "3"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Adrianf",
+                "diff": "4"
+            }
+        ],
+        [
+            {
+                "w": "JsKingBoo",
+                "l": "kyanako",
+                "diff": "3"
+            },
+            {
+                "w": "RAY of Darkness",
+                "l": "Litwixen",
+                "diff": "3"
+            },
+            {
+                "w": "random256",
+                "l": "blerg",
+                "diff": "6"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "B747",
+                "diff": "3"
+            },
+            {
+                "w": "Namu",
+                "l": "Adrianf",
+                "diff": "3"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "BaronBnuy",
+                "diff": "5"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Crimsonflash20",
+                "diff": "1"
+            },
+            {
+                "w": "Childish_Android",
+                "l": "Squigs",
+                "diff": "3"
+            }
+        ]
+    
+
+    ],
+    "playoffs": [
+        [
+            {
+                "w": "random256",
+                "l": "blerg",
+                "diff": "3"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Mr. Banana Thief",
+                "diff": "3"
+            },
+            {
+                "w": "JsKingBoo",
+                "l": "RAY of Darkness",
+                "diff": "2"
+            },
+            {
+                "w": "Namu",
+                "l": "brokenmotor",
+                "diff": "3,"
+            }
+        ],
+        [
+            {
+                "w": "WiseGuy",
+                "l": "random256",
+                "diff": "4"
+            },
+            {
+                "w": "Namu",
+                "l": "JsKingBoo",
+                "diff": "2"
+            }
+        ],
+        [
+            {
+                "w": "Namu",
+                "l": "WiseGuy",
+                "diff": "6"
+            }
+        ]
+    ]
+}

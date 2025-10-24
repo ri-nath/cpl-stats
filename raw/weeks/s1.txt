@@ -1,0 +1,79 @@
+Week 1
+kyanako	W	2	-2	L	B747	
+JsKingBoo	L	-3	3	W	Mr. Banana Thief	
+RAY of Darkness	W	5	-5	L	Squigs	
+blerg	L	-2	2	W	WiseGuy	
+brokenmotor	W	5	-5	L	Childish_Android	
+Namu	W	6	-6	L	Crimsonflash20	
+random256	W	5	-5	L	Litwixen	
+BaronBnuy	L	-5	5	W	Adrianf	
+						
+Week 2						
+kyanako	L	-6	6	W	RAY of Darkness
+JsKingBoo	W	3	-3	L	Crimsonflash20	
+blerg	W	2	-2	L	Squigs	
+brokenmotor	W	3	-3	L	random256	
+Namu	W	3	-3	L	BaronBnuy	
+Mr. Banana Thief	W	5	-5	L	Childish_Android	
+B747	W	1	-1	L	Adrianf	
+Litwixen	L	-6	6	W	WiseGuy
+						
+Week 3						
+kyanako	L	-2	2	W	blerg
+JsKingBoo	W	3	-3	L	BaronBnuy	
+RAY of Darkness	W	4	-4	L	Adrianf	
+brokenmotor	W	6	-6	L	Litwixen
+Namu	W	6	-6	L	B747	
+random256	W	4	-4	L	Mr. Banana Thief	
+Crimsonflash20	L	-4	4	W	Childish_Android
+Squigs	L	-1	1	W	WiseGuy
+						
+Week 4						
+kyanako	W	3	-3	L	Squigs
+JsKingBoo	W	5	-5	L	B747	
+RAY of Darkness	L	-3	3	W	Namu
+blerg	W	5	-5	L	Adrianf	
+brokenmotor	W	1	-1	L	WiseGuy	
+random256	W	4	-4	L	Crimsonflash20
+Mr. Banana Thief	W	6	-6	L	Litwixen
+BaronBnuy	W	3	-3	L	Childish_Android	
+						
+Week 5						
+kyanako	L	-2	2	W	WiseGuy	
+JsKingBoo	L	-2	2	W	RAY of Darkness	
+blerg	W	1	-1	L	Namu
+brokenmotor	W	4	-4	L	Mr. Banana Thief	
+random256	W	6	-6	L	BaronBnuy
+Crimsonflash20	L	-1	1	W	Litwixen
+B747	W	3	-3	L	Childish_Android	
+Adrianf	W	2	-2	L	Squigs	
+						
+Week 6						
+kyanako	W	5	-5	L	Adrianf
+JsKingBoo	W	1	-1	L	blerg	
+RAY of Darkness	W	6	-6	L	Childish_Android	
+brokenmotor	W	2	-2	L	Crimsonflash20	
+Namu	L	-2	2	W	Squigs
+random256	W	4	-4	L	B747	
+Mr. Banana Thief	W	3	-3	L	WiseGuy	
+BaronBnuy	W	3	-3	L	Litwixen
+						
+Week 7						
+kyanako	W	5	-5	L	Namu	
+JsKingBoo	W	1	-1	L	Squigs	
+RAY of Darkness	L	-6	6	W	random256	
+blerg	W	6	-6	L	Childish_Android	
+brokenmotor	L	-3	3	W	BaronBnuy	
+Mr. Banana Thief	W	1	-1	L	Crimsonflash20	
+B747	W	3	-3	L	Litwixen	
+Adrianf	L	-4	4	W	WiseGuy	
+						
+Week 8						
+kyanako	L	-3	3	W	JsKingBoo	
+RAY of Darkness	W	3	-3	L	Litwixen	
+blerg	L	-6	6	W	random256	
+brokenmotor	W	3	-3	L	B747	
+Namu	W	3	-3	L	Adrianf	
+Mr. Banana Thief	W	5	-5	L	BaronBnuy	
+Crimsonflash20	L	-1	1	W	WiseGuy	
+Childish_Android	W	3	-3	L	Squigs

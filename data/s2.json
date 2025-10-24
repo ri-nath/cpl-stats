@@ -1,0 +1,383 @@
+{
+    "weeks": [
+        [
+            {
+                "w": "Mr. Banana Thief",
+                "l": "blerg",
+                "diff": "1"
+            },
+            {
+                "w": "Namu",
+                "l": "WiseGuy",
+                "diff": "4"
+            },
+            {
+                "w": "Joseph",
+                "l": "Childish_Android",
+                "diff": "4"
+            },
+            {
+                "w": "marzdude9",
+                "l": "B747",
+                "diff": "3"
+            },
+            {
+                "w": "Squigs",
+                "l": "BaronBnuy",
+                "diff": "5"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Adrianf",
+                "diff": "4"
+            },
+            {
+                "w": "InsideOutside",
+                "l": "kyanako",
+                "diff": "5"
+            },
+            {
+                "w": "Ghoulean",
+                "l": "AmosLupin",
+                "diff": "4"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "Childish_Android",
+                "diff": "4"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Adrianf",
+                "diff": "6"
+            },
+            {
+                "w": "Joseph",
+                "l": "B747",
+                "diff": "5"
+            },
+            {
+                "w": "Squigs",
+                "l": "kyanako",
+                "diff": "3"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Ghoulean",
+                "diff": "4"
+            },
+            {
+                "w": "Namu",
+                "l": "BaronBnuy",
+                "diff": "4"
+            },
+            {
+                "w": "AmosLupin",
+                "l": "Mr. Banana Thief",
+                "diff": "4"
+            },
+            {
+                "w": "marzdude9",
+                "l": "InsideOutside",
+                "diff": "5"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "B747",
+                "diff": "4"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Ghoulean",
+                "diff": "2"
+            },
+            {
+                "w": "AmosLupin",
+                "l": "Childish_Android",
+                "diff": "5"
+            },
+            {
+                "w": "Squigs",
+                "l": "InsideOutside",
+                "diff": "4"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Mr. Banana Thief",
+                "diff": "4"
+            },
+            {
+                "w": "Namu",
+                "l": "kyanako",
+                "diff": "3"
+            },
+            {
+                "w": "Adrianf",
+                "l": "BaronBnuy",
+                "diff": "2"
+            },
+            {
+                "w": "Joseph",
+                "l": "marzdude9",
+                "diff": "4"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "Joseph",
+                "diff": "3"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "WiseGuy",
+                "diff": "6"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Childish_Android",
+                "diff": "3"
+            },
+            {
+                "w": "AmosLupin",
+                "l": "B747",
+                "diff": "4"
+            },
+            {
+                "w": "Squigs",
+                "l": "marzdude9",
+                "diff": "3"
+            },
+            {
+                "w": "kyanako",
+                "l": "Adrianf",
+                "diff": "5"
+            },
+            {
+                "w": "InsideOutside",
+                "l": "Namu",
+                "diff": "4"
+            },
+            {
+                "w": "Ghoulean",
+                "l": "BaronBnuy",
+                "diff": "2"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "marzdude9",
+                "diff": "5"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "Childish_Android",
+                "diff": "4"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "B747",
+                "diff": "5"
+            },
+            {
+                "w": "Squigs",
+                "l": "Namu",
+                "diff": "3"
+            },
+            {
+                "w": "Ghoulean",
+                "l": "kyanako",
+                "diff": "3"
+            },
+            {
+                "w": "Adrianf",
+                "l": "InsideOutside",
+                "diff": "3"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "BaronBnuy",
+                "diff": "6"
+            },
+            {
+                "w": "Joseph",
+                "l": "AmosLupin",
+                "diff": "5"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "AmosLupin",
+                "diff": "5"
+            },
+            {
+                "w": "WiseGuy",
+                "l": "B747",
+                "diff": "5"
+            },
+            {
+                "w": "Childish_Android",
+                "l": "BaronBnuy",
+                "diff": "1"
+            },
+            {
+                "w": "Adrianf",
+                "l": "Squigs",
+                "diff": "3"
+            },
+            {
+                "w": "brokenmotor",
+                "l": "Joseph",
+                "diff": "4"
+            },
+            {
+                "w": "Mr. Banana Thief",
+                "l": "kyanako",
+                "diff": "5"
+            },
+            {
+                "w": "Namu",
+                "l": "marzdude9",
+                "diff": "3"
+            },
+            {
+                "w": "InsideOutside",
+                "l": "Ghoulean",
+                "diff": "4"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "brokenmotor",
+                "diff": "3"
+            },
+            {
+                "w": "Joseph",
+                "l": "WiseGuy",
+                "diff": "2"
+            },
+            {
+                "w": "Childish_Android",
+                "l": "kyanako",
+                "diff": "4"
+            },
+            {
+                "w": "B747",
+                "l": "BaronBnuy",
+                "diff": "1"
+            },
+            {
+                "w": "Ghoulean",
+                "l": "Squigs",
+                "diff": "2"
+            },
+            {
+                "w": "Namu",
+                "l": "Adrianf",
+                "diff": "5"
+            },
+            {
+                "w": "InsideOutside",
+                "l": "Mr. Banana Thief",
+                "diff": "5"
+            },
+            {
+                "w": "AmosLupin",
+                "l": "marzdude9",
+                "diff": "5"
+            }
+        ],
+        [
+            {
+                "w": "blerg",
+                "l": "WiseGuy",
+                "diff": "3"
+            },
+            {
+                "w": "InsideOutside",
+                "l": "Childish_Android",
+                "diff": "6"
+            },
+            {
+                "w": "kyanako",
+                "l": "B747",
+                "diff": "2"
+            },
+            {
+                "w": "Squigs",
+                "l": "Mr. Banana Thief",
+                "diff": "6"
+            },
+            {
+                "w": "AmosLupin",
+                "l": "brokenmotor",
+                "diff": "4"
+            },
+            {
+                "w": "Namu",
+                "l": "Ghoulean",
+                "diff": "1"
+            },
+            {
+                "w": "Adrianf",
+                "l": "marzdude9",
+                "diff": "4"
+            },
+            {
+                "w": "Joseph",
+                "l": "BaronBnuy",
+                "diff": "1"
+            }
+        ]
+    ],
+    "playoffs": [
+        [
+            {
+                "w": "WiseGuy",
+                "l": "blerg",
+                "diff": "1"
+            },
+            {
+                "w": "Joseph",
+                "l": "Namu",
+                "diff": "4"
+            },
+            {
+                "w": "InsideOutside",
+                "l": "brokenmotor",
+                "diff": "1"
+            },
+            {
+                "w": "AmosLupin",
+                "l": "Squigs",
+                "diff": "2"
+            }
+        ],
+        [
+            {
+                "w": "Joseph",
+                "l": "blerg",
+                "diff": "1"
+            },
+            {
+                "w": "AmosLupin",
+                "l": "InsideOutside",
+                "diff": "6"
+            }
+        ],
+        [
+            {
+                "w": "AmosLupin",
+                "l": "Joseph",
+                "diff": "6"
+            }
+        ]
+    ]
+}

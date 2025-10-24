@@ -1,0 +1,79 @@
+Week 1
+blerg	L	-1	1	W	Mr. Banana Thief
+WiseGuy	L	-4	4	W	Namu	
+Childish_Android	L	-4	4	W	Joseph
+B747	L	-3	3	W	marzdude9
+Squigs	W	5	-5	L	BaronBnuy
+brokenmotor	W	4	-4	L	Adrianf
+kyanako	L	-5	5	W	InsideOutside
+Ghoulean	W	4	-4	L	AmosLupin
+						
+Week 2						
+blerg	W	4	-4	L	Childish_Android
+WiseGuy	W	6	-6	L	Adrianf	
+B747	L	-5	5	W	Joseph	
+Squigs	W	3	-3	L	kyanako
+brokenmotor	W	4	-4	L	Ghoulean	
+Namu	W	4	-4	L	BaronBnuy
+Mr. Banana Thief	L	-4	4	W	AmosLupin	
+InsideOutside	L	-5	5	W	marzdude9	
+						
+Week 3						
+blerg	W	4	-4	L	B747	
+WiseGuy	W	2	-2	L	Ghoulean	
+Childish_Android	L	-5	5	W	AmosLupin	
+Squigs	W	4	-4	L	InsideOutside	
+brokenmotor	W	4	-4	L	Mr. Banana Thief	
+kyanako	L	-3	3	W	Namu	
+Adrianf	W	2	-2	L	BaronBnuy	
+Joseph	W	4	-4	L	marzdude9	
+						
+Week 4						
+blerg	W	3	-3	L	Joseph	
+WiseGuy	L	-6	6	W	Mr. Banana Thief	
+Childish_Android	L	-3	3	W	brokenmotor	
+B747	L	-4	4	W	AmosLupin	
+Squigs	W	3	-3	L	marzdude9	
+kyanako	W	5	-5	L	Adrianf	
+Namu	L	-4	4	W	InsideOutside	
+Ghoulean	W	2	-2	L	BaronBnuy	
+						
+Week 5						
+blerg	W	5	-5	L	marzdude9	
+WiseGuy	W	4	-4	L	Childish_Android	
+B747	L	-5	5	W	brokenmotor	
+Squigs	W	3	-3	L	Namu	
+kyanako	L	-3	3	W	Ghoulean	
+Adrianf	W	3	-3	L	InsideOutside	
+Mr. Banana Thief	W	6	-6	L	BaronBnuy	
+AmosLupin	L	-5	5	W	Joseph	
+						
+Week 6						
+blerg	W	5	-5	L	AmosLupin	
+WiseGuy	W	5	-5	L	B747	
+Childish_Android	W	1	-1	L	BaronBnuy	
+Squigs	L	-3	3	W	Adrianf	
+brokenmotor	W	4	-4	L	Joseph	
+kyanako	L	-5	5	W	Mr. Banana Thief	
+Namu	W	3	-3	L	marzdude9	
+Ghoulean	L	-4	4	W	InsideOutside	
+						
+Week 7						
+blerg	W	3	-3	L	brokenmotor	
+WiseGuy	L	-2	2	W	Joseph	
+Childish_Android	W	4	-4	L	kyanako	
+B747	W	1	-1	L	BaronBnuy	
+Squigs	L	-2	2	W	Ghoulean	
+Namu	W	5	-5	L	Adrianf	
+Mr. Banana Thief	L	-5	5	W	InsideOutside	
+AmosLupin	W	5	-5	L	marzdude9	
+						
+Week 8						
+blerg	W	3	-3	L	WiseGuy
+Childish_Android	L	-6	6	W	InsideOutside	
+B747	L	-2	2	W	kyanako	
+Squigs	W	6	-6	L	Mr. Banana Thief	
+brokenmotor	L	-4	4	W	AmosLupin	
+Namu	W	1	-1	L	Ghoulean	
+Adrianf	W	4	-4	L	marzdude9	
+BaronBnuy	L	-1	1	W	Joseph	
