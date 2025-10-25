@@ -60,6 +60,9 @@ const createChartConfig = (weeks, elos) => {
           display: false,
         },
         zoom: {
+          limits: {
+            y: { min: min, max: max },
+          },
           zoom: {
             wheel: {
               enabled: true,
@@ -84,7 +87,7 @@ const createChartConfig = (weeks, elos) => {
           max: max,
           ticks: {
             callback: function (value) {
-              return value; // returns the value without formatting
+              return Math.round(value); // returns the value without formatting
             },
           },
         },
@@ -92,6 +95,13 @@ const createChartConfig = (weeks, elos) => {
       elements: {
         line: {
           tension: 0.4, // Smoother curves; set to 0 for straight lines
+        },
+      },
+      transitions: {
+        zoom: {
+          animation: {
+            duration: 0,
+          },
         },
       },
     },
