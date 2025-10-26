@@ -20,21 +20,22 @@ const normalizeName = (name, metadata=undefined) => {
   return name.toLowerCase()
 };
 
-const DEFAULT_ELO = 1500
-const FLOOR_ELO = null
-const HIGH_ELO = 1600
-const K = 50
-const K_HIGH_ELO = 20
+// ELO configuration
+let DEFAULT_ELO = 1500;
+let FLOOR_ELO = null;
+let HIGH_ELO = 1600;
+let K = 50;
+let K_HIGH_ELO = 15;
 
 // Function to calculate ELO
 const calculateELO = (currentElo, opponentElo, outcome) => {
   let k = K
-  if (Math.min(currentElo, opponentElo) >= HIGH_ELO) {
+  if (HIGH_ELO && Math.min(currentElo, opponentElo) >= HIGH_ELO) {
      k = K_HIGH_ELO;
   }
   const expectedScore =
     1 / (1 + Math.pow(10, (opponentElo - currentElo) / 400));
-  const elo = Math.round(currentElo + K * (outcome - expectedScore));
+  const elo = Math.round(currentElo + k * (outcome - expectedScore));
   return FLOOR_ELO ? Math.max(elo, FLOOR_ELO) : elo
 };
 
@@ -112,4 +113,13 @@ const interpolateData = (history) => {
   });
 };
 
-export { normalizeName, calculateELO, processGames, interpolateData };
+// Update ELO configuration
+const updateELOConfig = (config) => {
+  DEFAULT_ELO = config.defaultElo || DEFAULT_ELO;
+  FLOOR_ELO = config.floorElo || FLOOR_ELO;
+  HIGH_ELO = config.highElo || HIGH_ELO;
+  K = config.k || K;
+  K_HIGH_ELO = config.kHighElo || K_HIGH_ELO;
+};
+
+export { normalizeName, calculateELO, processGames, interpolateData, updateELOConfig };

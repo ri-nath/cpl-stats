@@ -37,8 +37,8 @@ const calculateYAxisRange = (elos) => {
     return { min: 0, max: 2000 };
   }
 
-  const y_min = Math.round((Math.min(...allElos) - 50) / 100) * 100;
-  const y_max = Math.round((Math.max(...allElos) + 50) / 100) * 100;
+  const y_min = Math.round((Math.min(...allElos) - 5) / 10) * 10;
+  const y_max = Math.round((Math.max(...allElos) + 5) / 10) * 10;
 
   return { min: y_min, max: y_max };
 };
@@ -98,8 +98,8 @@ const createChartConfig = (weeks, elos) => {
           tension: 0.4, // Smoother curves; set to 0 for straight lines
         },
         point: {
-          radius: 2.5
-        }
+          radius: 2.5,
+        },
       },
       transitions: {
         zoom: {

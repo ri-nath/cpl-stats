@@ -11,15 +11,46 @@
     <script type="module" src="src/index.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>cpl-stats</h1>
-        <div>
-            <label>
-                <input type="checkbox" id="playoffsToggle" checked>
-                Include Playoffs
-            </label>
+    <div class="page-container">
+        <div class="chart-row">
+            <canvas id="eloChart" width="100%"></canvas>
         </div>
-        <canvas id="eloChart" width="400" height="200"></canvas>
+        <div class="second-row">
+            <div class="container">
+                <h5>data config <button id="resetDataConfig">⟲</button> </h5>
+                <label>
+                    <input type="checkbox" id="playoffsToggle" checked>
+                    include playoffs
+                </label>
+                <label>
+                    <input id="dataRange" value="s1w1..s6p4">
+                    data range (inclusive)
+                </label>
+                <h5>elo config <button id="resetEloConfig">⟲</button></h5>
+                <label>
+                    <input type="number" id="kFactor" value="60">
+                    K-factor
+                </label>
+                <label>
+                    <input type="number" id="floorElo" placeholder="None">
+                    ELO floor
+                </label>
+                <label>
+                    <input type="number" id="highElo" value="1500">
+                    "high elo" threshold
+                </label>
+                <label>
+                    <input type="number" id="kFactorHighElo" value="15">
+                    "high elo" K-factor
+                </label>
+            </div>
+            <div class="container">
+                <p>Placeholder 1</p>
+            </div>
+            <div class="container">
+                <p>Placeholder 2</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
