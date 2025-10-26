@@ -44,7 +44,6 @@ const deselectLine = (chartInstance) => {
 
 // Function to create chart element
 const createChartElement = (ctx, config) => {
-  console.log(config);
   if (chart) {
     chart.data = config.data;
     chart.options = config.options;

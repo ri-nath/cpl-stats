@@ -1,0 +1,992 @@
+{
+  "metadata": {
+    "link": "https://docs.google.com/spreadsheets/d/1LC1BVzHsjmwq2FEqtoJhslfPbsr1m0mBYsUb8gA_4mc/edit?gid=1166627944#gid=1166627944",
+    "team_names": {
+      "Wings of Ruin": "RayOfDarkness",
+      "Arizona Swellows": "jowdy",
+      "The Golden Age": "Tiger78",
+      "Adapt or Drown": "Arboursole",
+      "cough agree guys?": "Tezzy",
+      "THE LEGENDARY LEVICNCIANS": "Squigs",
+      "Anistar Angels": "Katie",
+      "Sigma Grindset": "Le Chonk",
+      "Expanding Force": "Matt",
+      "Rampaging Rufflets": "rssp1",
+      "Alaka-ZAMMNN!!": "Joseph",
+      "Mass Times Velocity": "brokenmotor",
+      "Daddy Smurf": "blerg",
+      "Five Turns in Rain": "Penxil",
+      "Chesapeke Cloyster Catchers": "insideoutside"
+    }
+  },
+  "weeks": [
+    [
+      {
+        "w": "Katie",
+        "l": "jowdy",
+        "diff": "1"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Le Chonk",
+        "diff": "5"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Matt",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Tezzy",
+        "diff": "4"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "Squigs",
+        "diff": "4"
+      },
+      {
+        "w": "Katie",
+        "l": "jowdy",
+        "diff": "1"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Le Chonk",
+        "diff": "5"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Matt",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Tezzy",
+        "diff": "4"
+      },
+      {
+        "w": "David V",
+        "l": "rsha256",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Penxil",
+        "diff": "4"
+      },
+      {
+        "w": "Joseph",
+        "l": "Anthony",
+        "diff": "6"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "blerg",
+        "diff": "4"
+      },
+      {
+        "w": "NAMU",
+        "l": "RobotX888",
+        "diff": "5"
+      },
+      {
+        "w": "David V",
+        "l": "rsha256",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Penxil",
+        "diff": "4"
+      },
+      {
+        "w": "Joseph",
+        "l": "Anthony",
+        "diff": "6"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "blerg",
+        "diff": "4"
+      },
+      {
+        "w": "NAMU",
+        "l": "RobotX888",
+        "diff": "5"
+      }
+    ],
+    [
+      {
+        "w": "RayOfDarkness",
+        "l": "jowdy",
+        "diff": "6"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Squigs",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Katie",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Le Chonk",
+        "diff": "5"
+      },
+      {
+        "w": "Matt",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "jowdy",
+        "diff": "6"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Squigs",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Katie",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Le Chonk",
+        "diff": "5"
+      },
+      {
+        "w": "Matt",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "rsha256",
+        "diff": "4"
+      },
+      {
+        "w": "Joseph",
+        "l": "David V",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "Penxil",
+        "diff": "2"
+      },
+      {
+        "w": "Anthony",
+        "l": "RobotX888",
+        "diff": "5"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "NAMU",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "rsha256",
+        "diff": "4"
+      },
+      {
+        "w": "Joseph",
+        "l": "David V",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "Penxil",
+        "diff": "2"
+      },
+      {
+        "w": "Anthony",
+        "l": "RobotX888",
+        "diff": "5"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "NAMU",
+        "diff": "2"
+      }
+    ],
+    [
+      {
+        "w": "Tiger78",
+        "l": "RayOfDarkness",
+        "diff": "2"
+      },
+      {
+        "w": "Arboursole",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Squigs",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Katie",
+        "diff": "1"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "Matt",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "RayOfDarkness",
+        "diff": "2"
+      },
+      {
+        "w": "Arboursole",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Squigs",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Katie",
+        "diff": "1"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "Matt",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "rsha256",
+        "diff": "5"
+      },
+      {
+        "w": "blerg",
+        "l": "insideoutside",
+        "diff": "5"
+      },
+      {
+        "w": "David V",
+        "l": "RobotX888",
+        "diff": "4"
+      },
+      {
+        "w": "Penxil",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Anthony",
+        "diff": "0"
+      },
+      {
+        "w": "Joseph",
+        "l": "rsha256",
+        "diff": "5"
+      },
+      {
+        "w": "blerg",
+        "l": "insideoutside",
+        "diff": "5"
+      },
+      {
+        "w": "David V",
+        "l": "RobotX888",
+        "diff": "4"
+      },
+      {
+        "w": "Penxil",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Anthony",
+        "diff": "5"
+      }
+    ],
+    [
+      {
+        "w": "RayOfDarkness",
+        "l": "Arboursole",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Tezzy",
+        "diff": "5"
+      },
+      {
+        "w": "rssp1",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "Matt",
+        "diff": "1"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "Katie",
+        "diff": "4"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "Arboursole",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Tezzy",
+        "diff": "5"
+      },
+      {
+        "w": "rssp1",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "Matt",
+        "diff": "1"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "Katie",
+        "diff": "4"
+      },
+      {
+        "w": "blerg",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "RobotX888",
+        "diff": "3"
+      },
+      {
+        "w": "NAMU",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "David V",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "Anthony",
+        "diff": "4"
+      },
+      {
+        "w": "blerg",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "RobotX888",
+        "diff": "3"
+      },
+      {
+        "w": "NAMU",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "David V",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "Anthony",
+        "diff": "4"
+      }
+    ],
+    [
+      {
+        "w": "RayOfDarkness",
+        "l": "Tezzy",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Arboursole",
+        "diff": "2"
+      },
+      {
+        "w": "Matt",
+        "l": "Tiger78",
+        "diff": "2"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Katie",
+        "l": "Squigs",
+        "diff": "3"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "Tezzy",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Arboursole",
+        "diff": "2"
+      },
+      {
+        "w": "Matt",
+        "l": "Tiger78",
+        "diff": "2"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Katie",
+        "l": "Squigs",
+        "diff": "3"
+      },
+      {
+        "w": "RobotX888",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "brokenmotor",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Anthony",
+        "diff": "5"
+      },
+      {
+        "w": "Penxil",
+        "l": "David V",
+        "diff": "5"
+      },
+      {
+        "w": "RobotX888",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "brokenmotor",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Anthony",
+        "diff": "5"
+      },
+      {
+        "w": "Penxil",
+        "l": "David V",
+        "diff": "5"
+      }
+    ],
+    [
+      {
+        "w": "RayOfDarkness",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Matt",
+        "diff": "1"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Katie",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Matt",
+        "diff": "1"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Katie",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "NAMU",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "RobotX888",
+        "diff": "5"
+      },
+      {
+        "w": "blerg",
+        "l": "Anthony",
+        "diff": "5"
+      },
+      {
+        "w": "Joseph",
+        "l": "Penxil",
+        "diff": "6"
+      },
+      {
+        "w": "insideoutside",
+        "l": "David V",
+        "diff": "3"
+      },
+      {
+        "w": "NAMU",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "RobotX888",
+        "diff": "5"
+      },
+      {
+        "w": "blerg",
+        "l": "Anthony",
+        "diff": "5"
+      },
+      {
+        "w": "Joseph",
+        "l": "Penxil",
+        "diff": "6"
+      },
+      {
+        "w": "insideoutside",
+        "l": "David V",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "RayOfDarkness",
+        "l": "Matt",
+        "diff": "5"
+      },
+      {
+        "w": "rssp1",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Katie",
+        "diff": "4"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Squigs",
+        "diff": "2"
+      },
+      {
+        "w": "Tiger78",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "Matt",
+        "diff": "5"
+      },
+      {
+        "w": "rssp1",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Katie",
+        "diff": "4"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Squigs",
+        "diff": "2"
+      },
+      {
+        "w": "Tiger78",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "Anthony",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "RobotX888",
+        "diff": "4"
+      },
+      {
+        "w": "blerg",
+        "l": "David V",
+        "diff": "2"
+      },
+      {
+        "w": "Joseph",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "Anthony",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "RobotX888",
+        "diff": "4"
+      },
+      {
+        "w": "blerg",
+        "l": "David V",
+        "diff": "2"
+      },
+      {
+        "w": "Joseph",
+        "l": "insideoutside",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "RayOfDarkness",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Katie",
+        "l": "Matt",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "rssp1",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Tiger78",
+        "diff": "2"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Katie",
+        "l": "Matt",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "rssp1",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "jowdy",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Tiger78",
+        "diff": "2"
+      },
+      {
+        "w": "Anthony",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "brokenmotor",
+        "diff": "4"
+      },
+      {
+        "w": "David V",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "RobotX888",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "blerg",
+        "diff": "3"
+      },
+      {
+        "w": "Anthony",
+        "l": "rsha256",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "brokenmotor",
+        "diff": "4"
+      },
+      {
+        "w": "David V",
+        "l": "NAMU",
+        "diff": "3"
+      },
+      {
+        "w": "RobotX888",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "blerg",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "RayOfDarkness",
+        "l": "Katie",
+        "diff": "5"
+      },
+      {
+        "w": "Squigs",
+        "l": "Le Chonk",
+        "diff": "6"
+      },
+      {
+        "w": "Matt",
+        "l": "jowdy",
+        "diff": "6"
+      },
+      {
+        "w": "rssp1",
+        "l": "Tiger78",
+        "diff": "2"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Arboursole",
+        "diff": "4"
+      },
+      {
+        "w": "RayOfDarkness",
+        "l": "Katie",
+        "diff": "5"
+      },
+      {
+        "w": "Squigs",
+        "l": "Le Chonk",
+        "diff": "6"
+      },
+      {
+        "w": "Matt",
+        "l": "jowdy",
+        "diff": "6"
+      },
+      {
+        "w": "rssp1",
+        "l": "Tiger78",
+        "diff": "2"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Arboursole",
+        "diff": "4"
+      },
+      {
+        "w": "Penxil",
+        "l": "rsha256",
+        "diff": "6"
+      },
+      {
+        "w": "David V",
+        "l": "Anthony",
+        "diff": "4"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "insideoutside",
+        "diff": "6"
+      },
+      {
+        "w": "Joseph",
+        "l": "NAMU",
+        "diff": "6"
+      },
+      {
+        "w": "blerg",
+        "l": "RobotX888",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "rsha256",
+        "diff": "6"
+      },
+      {
+        "w": "David V",
+        "l": "Anthony",
+        "diff": "4"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "insideoutside",
+        "diff": "6"
+      },
+      {
+        "w": "Joseph",
+        "l": "NAMU",
+        "diff": "6"
+      },
+      {
+        "w": "blerg",
+        "l": "RobotX888",
+        "diff": "3"
+      }
+    ]
+  ],
+  "playoffs": [
+    [
+      {
+        "w": "Adapt or Drown",
+        "l": "Chesapeke Cloyster Catchers",
+        "diff": 1
+      },
+      {
+        "w": "Rampaging Rufflets",
+        "l": "Five Turns in Rain",
+        "diff": 3
+      }
+    ],
+    [
+      {
+        "w": "Adapt or Drown",
+        "l": "Wings of Ruin",
+        "diff": 4
+      },
+      {
+        "w": "cough agree guys?",
+        "l": "Mass Times Velocity",
+        "diff": 1
+      },
+      {
+        "w": "Daddy Smurf",
+        "l": "The Golden Age",
+        "diff": 6
+      },
+      {
+        "w": "Alaka-ZAMMNN!!",
+        "l": "Rampaging Rufflets",
+        "diff": 1
+      }
+    ],
+    [
+      {
+        "w": "Adapt or Drown",
+        "l": "cough agree guys?",
+        "diff": 5
+      },
+      {
+        "w": "Alaka-ZAMMNN!!",
+        "l": "Daddy Smurf",
+        "diff": 5
+      }
+    ],
+    [
+      {
+        "w": "Adapt or Drown",
+        "l": "Alaka-ZAMMNN!!",
+        "diff": 5
+      }
+    ]
+  ]
+}

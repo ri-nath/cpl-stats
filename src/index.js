@@ -1,6 +1,6 @@
 // Import modules
 import {
-  checkForAlias,
+  normalizeName ,
   calculateELO,
   processGames,
   interpolateData,
@@ -20,7 +20,7 @@ import { main, handlePlayoffToggle } from "./app.js";
 
 // Make modules available globally for backward compatibility
 window.DataProcessor = {
-  checkForAlias,
+  normalizeName,
   calculateELO,
   processGames,
   interpolateData,

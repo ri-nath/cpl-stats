@@ -24,21 +24,19 @@ const initializeELOChart = (seasons, includePlayoffs = true) => {
       season.playoffs.forEach((playoffGames, playoffIndex) => {
         let x_axis_index = x_axis.length + season.weeks.length + playoffIndex;
         weeks.push(`s${seasonIndex + 1}p${playoffIndex + 1}`);
-        elos = DataProcessor.processGames(playoffGames, elos, x_axis_index);
+        elos = DataProcessor.processGames(playoffGames, elos, x_axis_index, season.metadata);
       });
     }
 
     x_axis = x_axis.concat(weeks);
   }
 
-  console.log("x_axis", x_axis, "elos", elos);
-
   return { weeks: x_axis, elos: elos };
 };
 
 // Main function to run the application
 const main = () => {
-  const urls = ["./data/s1.json", "./data/s2.json", "./data/s3.json"]; // List of JSON files
+  const urls = ["./data/s1.json", "./data/s2.json", "./data/s3.json", "./data/s4.json", "./data/s5.json", "./data/s6.json"];
 
   // Fetch all data files
   Promise.all(urls.map(fetchData))
@@ -55,7 +53,7 @@ const main = () => {
 
 // Function to handle playoff toggle
 const handlePlayoffToggle = (includePlayoffs) => {
-  const urls = ["./data/s1.json", "./data/s2.json", "./data/s3.json"];
+  const urls = ["./data/s1.json", "./data/s2.json", "./data/s3.json", "./data/s4.json", "./data/s5.json", "./data/s6.json"];
 
   Promise.all(urls.map(fetchData))
     .then((data) => {

@@ -1,29 +1,43 @@
 // Data Processing Module
-const checkForAlias = (name) => {
+const normalizeName = (name, metadata=undefined) => {
+  if (metadata && metadata.team_names && metadata.team_names[name]) {
+    return metadata.team_names[name].toLowerCase()
+  }
   const aliases = {
     random256: "rsha256",
     b747: "praj",
     ghoulean: "js",
     jskingboo: "js",
+    wiseguy: "arboursole",
+    "ray of darkness": "rayofdarkness"
   };
-  return aliases[name] ? aliases[name] : name;
+  if (aliases[name]) {
+    return aliases[name]
+  }
+  if (aliases[name.toLowerCase()]) {
+    return aliases[name.toLowerCase()]
+  }
+  return name.toLowerCase()
 };
 
 // Function to calculate ELO
 const calculateELO = (currentElo, opponentElo, outcome) => {
-  const K = 50; // K factor, https://pokemonshowdown.com/pages/ladderhelp
+  let K = 30; // K factor, https://pokemonshowdown.com/pages/ladderhelp
+  if (Math.min(currentElo, opponentElo) >= 1500) {
+     K = 15;
+  }
   const expectedScore =
     1 / (1 + Math.pow(10, (opponentElo - currentElo) / 400));
   return Math.round(currentElo + K * (outcome - expectedScore));
 };
 
 // Function to process games and update ELOs
-const processGames = (games, elos, weekIndex) => {
+const processGames = (games, elos, weekIndex, metadata=undefined) => {
   const updatedElos = { ...elos };
 
   games.forEach((game) => {
-    const winner = checkForAlias(game.w.toLowerCase());
-    const loser = checkForAlias(game.l.toLowerCase());
+    const winner = normalizeName(game.w, metadata);
+    const loser = normalizeName(game.l, metadata);
 
     // Initialize ELOs for new players
     if (!updatedElos[winner]) {
@@ -91,4 +105,4 @@ const interpolateData = (history) => {
   });
 };
 
-export { checkForAlias, calculateELO, processGames, interpolateData };
+export { normalizeName, calculateELO, processGames, interpolateData };

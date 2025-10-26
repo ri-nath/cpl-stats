@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "link": "https://docs.google.com/spreadsheets/d/1cu5zZQa3rjGgzvacid182bdxiSGuUmvLZN0S9Dt27jI/edit?gid=873732735#gid=873732735",
+    "team_names": {
+      "Eight Fucking Water Team": "Smoke",
+      "Rampaging Rufflets": "rssp1",
+      "Praise The Sun": "SonnyDayz",
+      "Sussy Occa": "LuminousFox",
+      "The Overgrown Torterras": "Tezzy",
+      "The Bellowing Thunders": "Squigs",
+      "No Switch In?": "Picante",
+      "Sexo Mode Activated": "blerg",
+      "Agency's Strongest Soldier": "Joseph",
+      "Petalburg Pixies": "Adrian",
+      "That Dog in Him": "Tiger78",
+      "The Choiced Specialists": "brokenmotor",
+      "The Silver Knights": "Holy Macaroni",
+      "Let Me Cook": "materia",
+      "Jubilife Sinnoh-Ham Fighters": "insideoutside",
+      "Ballin' Moon": "Arboursole",
+      "Bay Area Bunnies": "bagel",
+      "HEHEHEHARVEST": "namu",
+      "Man": "mb12",
+      "Bay Area Basculegions": "eragon11145"
+    }
+  },
+  "weeks": [
+    [
+      {
+        "w": "Arboursole",
+        "l": "mb12",
+        "diff": "2"
+      },
+      {
+        "w": "namu",
+        "l": "materia",
+        "diff": "5"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "bagel",
+        "diff": "4"
+      },
+      {
+        "w": "eragon11145",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "Smoke",
+        "l": "Squigs",
+        "diff": "5"
+      },
+      {
+        "w": "rssp1",
+        "l": "Picante",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "SonnyDayz",
+        "diff": "5"
+      },
+      {
+        "w": "Joseph",
+        "l": "LuminousFox",
+        "diff": "6"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Adrian",
+        "diff": "4"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "Tiger78",
+        "diff": "1"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "materia",
+        "diff": "2"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "mb12",
+        "diff": "2"
+      },
+      {
+        "w": "namu",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "bagel",
+        "l": "eragon11145",
+        "diff": "4"
+      },
+      {
+        "w": "rssp1",
+        "l": "Smoke",
+        "diff": "2"
+      },
+      {
+        "w": "Squigs",
+        "l": "SonnyDayz",
+        "diff": "3"
+      },
+      {
+        "w": "LuminousFox",
+        "l": "Picante",
+        "diff": "5"
+      },
+      {
+        "w": "Tezzy",
+        "l": "blerg",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Adrian",
+        "diff": "5"
+      }
+    ],
+    [
+      {
+        "w": "Tiger78",
+        "l": "materia",
+        "diff": "6"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "Arboursole",
+        "diff": "1"
+      },
+      {
+        "w": "insideoutside",
+        "l": "brokenmotor",
+        "diff": "3"
+      },
+      {
+        "w": "eragon11145",
+        "l": "mb12",
+        "diff": "5"
+      },
+      {
+        "w": "namu",
+        "l": "bagel",
+        "diff": "5"
+      },
+      {
+        "w": "SonnyDayz",
+        "l": "Smoke",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "LuminousFox",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Squigs",
+        "diff": "5"
+      },
+      {
+        "w": "Adrian",
+        "l": "Picante",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "Joseph",
+        "diff": "2"
+      }
+    ],
+    [
+      {
+        "w": "Tiger78",
+        "l": "Holy Macaroni",
+        "diff": "2"
+      },
+      {
+        "w": "materia",
+        "l": "insideoutside",
+        "diff": "3"
+      },
+      {
+        "w": "eragon11145",
+        "l": "Arboursole",
+        "diff": "2"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "bagel",
+        "diff": "5"
+      },
+      {
+        "w": "namu",
+        "l": "mb12",
+        "diff": "1"
+      },
+      {
+        "w": "LuminousFox",
+        "l": "Smoke",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "SonnyDayz",
+        "diff": "4"
+      },
+      {
+        "w": "rssp1",
+        "l": "Adrian",
+        "diff": "1"
+      },
+      {
+        "w": "Squigs",
+        "l": "Joseph",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "Picante",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "insideoutside",
+        "l": "Tiger78",
+        "diff": "5"
+      },
+      {
+        "w": "eragon11145",
+        "l": "Holy Macaroni",
+        "diff": "4"
+      },
+      {
+        "w": "materia",
+        "l": "bagel",
+        "diff": "4"
+      },
+      {
+        "w": "Arboursole",
+        "l": "namu",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "mb12",
+        "diff": "1"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Smoke",
+        "diff": "5"
+      },
+      {
+        "w": "Adrian",
+        "l": "LuminousFox",
+        "diff": "1"
+      },
+      {
+        "w": "Joseph",
+        "l": "SonnyDayz",
+        "diff": "2"
+      },
+      {
+        "w": "blerg",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "Squigs",
+        "l": "Picante",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "eragon11145",
+        "l": "Tiger78",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "bagel",
+        "diff": "6"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "namu",
+        "diff": "3"
+      },
+      {
+        "w": "mb12",
+        "l": "materia",
+        "diff": "2"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Arboursole",
+        "diff": "3"
+      },
+      {
+        "w": "Adrian",
+        "l": "Smoke",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Joseph",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "LuminousFox",
+        "diff": "3"
+      },
+      {
+        "w": "SonnyDayz",
+        "l": "Picante",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "rssp1",
+        "diff": "1"
+      }
+    ],
+    [
+      {
+        "w": "bagel",
+        "l": "Tiger78",
+        "diff": "4"
+      },
+      {
+        "w": "eragon11145",
+        "l": "namu",
+        "diff": "3"
+      },
+      {
+        "w": "insideoutside",
+        "l": "mb12",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Holy Macaroni",
+        "diff": "5"
+      },
+      {
+        "w": "materia",
+        "l": "Arboursole",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Smoke",
+        "diff": "5"
+      },
+      {
+        "w": "blerg",
+        "l": "Adrian",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Picante",
+        "diff": "3"
+      },
+      {
+        "w": "LuminousFox",
+        "l": "Squigs",
+        "diff": "3"
+      },
+      {
+        "w": "rssp1",
+        "l": "SonnyDayz",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "Tiger78",
+        "l": "namu",
+        "diff": "3"
+      },
+      {
+        "w": "mb12",
+        "l": "bagel",
+        "diff": "4"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "eragon11145",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Arboursole",
+        "diff": "3"
+      },
+      {
+        "w": "materia",
+        "l": "Holy Macaroni",
+        "diff": "1"
+      },
+      {
+        "w": "blerg",
+        "l": "Smoke",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Picante",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "Adrian",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "rssp1",
+        "diff": "5"
+      },
+      {
+        "w": "LuminousFox",
+        "l": "SonnyDayz",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "Tiger78",
+        "l": "mb12",
+        "diff": "6"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "namu",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "bagel",
+        "diff": "3"
+      },
+      {
+        "w": "materia",
+        "l": "eragon11145",
+        "diff": "2"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "insideoutside",
+        "diff": "1"
+      },
+      {
+        "w": "Smoke",
+        "l": "Picante",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "blerg",
+        "diff": "3"
+      },
+      {
+        "w": "rssp1",
+        "l": "Joseph",
+        "diff": "1"
+      },
+      {
+        "w": "Adrian",
+        "l": "SonnyDayz",
+        "diff": "1"
+      },
+      {
+        "w": "LuminousFox",
+        "l": "Tezzy",
+        "diff": "2"
+      }
+    ]
+  ],
+  "playoffs": [
+    [
+      {
+        "w": "Sussy Occa",
+        "l": "Jubilife Sinnoh-Ham Fighters",
+        "diff": 6
+      },
+      {
+        "w": "Sexo Mode Activated",
+        "l": "Let Me Cook",
+        "diff": 3
+      }
+    ],
+    [
+      {
+        "w": "The Overgrown Torterras",
+        "l": "Sussy Occa",
+        "diff": 3
+      },
+      {
+        "w": "The Bellowing Thunders",
+        "l": "The Choiced Specialists",
+        "diff": 4
+      },
+      {
+        "w": "Rampaging Rufflets",
+        "l": "The Silver Knights",
+        "diff": 4
+      },
+      {
+        "w": "That Dog in Him",
+        "l": "Sexo Mode Activated",
+        "diff": 5
+      }
+    ],
+    [
+      {
+        "w": "The Bellowing Thunders",
+        "l": "The Overgrown Torterras",
+        "diff": 3
+      },
+      {
+        "w": "Rampaging Rufflets",
+        "l": "That Dog in Him",
+        "diff": 3
+      }
+    ],
+    [
+      {
+        "w": "Rampaging Rufflets",
+        "l": "The Bellowing Thunders",
+        "diff": 1
+      }
+    ]
+  ]
+}

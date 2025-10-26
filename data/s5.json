@@ -1,0 +1,997 @@
+{
+  "metadata": {
+    "link": "https://docs.google.com/spreadsheets/d/1rXLToBVuQirLsVXvpm9LoYWxXfN_QMOuDisMHe_slZQ/edit?gid=1166627944#gid=1166627944",
+    "team_names": {
+      "Turbo Blazer$": "Arboursole",
+      "The Silver Knights": "Holy Macaroni",
+      "The Skibidi Rotoms": "Swaguora",
+      "Marketable Plushies": "Materia5408",
+      "GPT Gooners": "Penxil",
+      "Rampaging Rufflets": "rssp1",
+      "The BROKEN MOTORS": "blerg",
+      "The Third Placers": "eragon",
+      "Lunar Fight Club": "PokemonDept",
+      "Goons, Goons, Goons": "brokenmotor",
+      "Mommy Medichams": "Joseph",
+      "The Washington Football Team": "insideoutside",
+      "i love daddy dolphn uwu": "Smoke",
+      "REGIMAN SUM": "Dolphn",
+      "Red Star Reshiram": "Tezzy",
+      "Certified Unc Status": "SonnyDayz",
+      "BRICK  BY BRICK": "Tiger78",
+      "The Gholdenbros": "Squigs",
+      "The Stupids": "Le Chonk",
+      "Green Bay Greedents": "Etay"
+    }
+  },
+  "weeks": [
+    [
+      {
+        "w": "blerg",
+        "l": "Holy Macaroni",
+        "diff": "1"
+      },
+      {
+        "w": "eragon",
+        "l": "Swaguora",
+        "diff": "4"
+      },
+      {
+        "w": "PokemonDept",
+        "l": "Materia5408",
+        "diff": "4"
+      },
+      {
+        "w": "Penxil",
+        "l": "brokenmotor",
+        "diff": "4"
+      },
+      {
+        "w": "Arboursole",
+        "l": "rssp1",
+        "diff": "1"
+      },
+      {
+        "w": "blerg",
+        "l": "Holy Macaroni",
+        "diff": "1"
+      },
+      {
+        "w": "eragon",
+        "l": "Swaguora",
+        "diff": "4"
+      },
+      {
+        "w": "PokemonDept",
+        "l": "Materia5408",
+        "diff": "4"
+      },
+      {
+        "w": "Penxil",
+        "l": "brokenmotor",
+        "diff": "4"
+      },
+      {
+        "w": "Joseph",
+        "l": "SonnyDayz",
+        "diff": "5"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Tiger78",
+        "diff": "5"
+      },
+      {
+        "w": "Squigs",
+        "l": "Smoke",
+        "diff": "1"
+      },
+      {
+        "w": "Dolphn",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Etay",
+        "diff": "1"
+      },
+      {
+        "w": "Joseph",
+        "l": "SonnyDayz",
+        "diff": "5"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Tiger78",
+        "diff": "5"
+      },
+      {
+        "w": "Squigs",
+        "l": "Smoke",
+        "diff": "1"
+      },
+      {
+        "w": "Dolphn",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Etay",
+        "diff": "1"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "Holy Macaroni",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "Materia5408",
+        "diff": "4"
+      },
+      {
+        "w": "eragon",
+        "l": "Penxil",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "PokemonDept",
+        "diff": "6"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Holy Macaroni",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "Materia5408",
+        "diff": "4"
+      },
+      {
+        "w": "eragon",
+        "l": "Penxil",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "PokemonDept",
+        "diff": "6"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Joseph",
+        "diff": "4"
+      },
+      {
+        "w": "Smoke",
+        "l": "SonnyDayz",
+        "diff": "2"
+      },
+      {
+        "w": "Dolphn",
+        "l": "Tiger78",
+        "diff": "6"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Squigs",
+        "diff": "4"
+      },
+      {
+        "w": "Etay",
+        "l": "Le Chonk",
+        "diff": "5"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Joseph",
+        "diff": "4"
+      },
+      {
+        "w": "Smoke",
+        "l": "SonnyDayz",
+        "diff": "2"
+      },
+      {
+        "w": "Dolphn",
+        "l": "Tiger78",
+        "diff": "6"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Squigs",
+        "diff": "4"
+      },
+      {
+        "w": "Etay",
+        "l": "Le Chonk",
+        "diff": "5"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "Materia5408",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "blerg",
+        "diff": "3"
+      },
+      {
+        "w": "eragon",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "Materia5408",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "blerg",
+        "diff": "3"
+      },
+      {
+        "w": "eragon",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Smoke",
+        "diff": "5"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Dolphn",
+        "diff": "2"
+      },
+      {
+        "w": "Tezzy",
+        "l": "SonnyDayz",
+        "diff": "5"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Etay",
+        "diff": "2"
+      },
+      {
+        "w": "Squigs",
+        "l": "Le Chonk",
+        "diff": "5"
+      },
+      {
+        "w": "Joseph",
+        "l": "Smoke",
+        "diff": "5"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Dolphn",
+        "diff": "2"
+      },
+      {
+        "w": "Tezzy",
+        "l": "SonnyDayz",
+        "diff": "5"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Etay",
+        "diff": "2"
+      },
+      {
+        "w": "Squigs",
+        "l": "Le Chonk",
+        "diff": "5"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "Materia5408",
+        "diff": "5"
+      },
+      {
+        "w": "Penxil",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "brokenmotor",
+        "diff": "4"
+      },
+      {
+        "w": "rssp1",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "eragon",
+        "diff": "1"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Materia5408",
+        "diff": "5"
+      },
+      {
+        "w": "Penxil",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "brokenmotor",
+        "diff": "4"
+      },
+      {
+        "w": "rssp1",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "eragon",
+        "diff": "1"
+      },
+      {
+        "w": "Joseph",
+        "l": "Dolphn",
+        "diff": "6"
+      },
+      {
+        "w": "Smoke",
+        "l": "Tezzy",
+        "diff": "1"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Etay",
+        "diff": "1"
+      },
+      {
+        "w": "SonnyDayz",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "Tiger78",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Dolphn",
+        "diff": "6"
+      },
+      {
+        "w": "Smoke",
+        "l": "Tezzy",
+        "diff": "1"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Etay",
+        "diff": "1"
+      },
+      {
+        "w": "SonnyDayz",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "Tiger78",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "Penxil",
+        "diff": "1"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Materia5408",
+        "diff": "1"
+      },
+      {
+        "w": "Swaguora",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "eragon",
+        "l": "Holy Macaroni",
+        "diff": "2"
+      },
+      {
+        "w": "blerg",
+        "l": "rssp1",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "Penxil",
+        "diff": "1"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Materia5408",
+        "diff": "1"
+      },
+      {
+        "w": "Swaguora",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "eragon",
+        "l": "Holy Macaroni",
+        "diff": "2"
+      },
+      {
+        "w": "blerg",
+        "l": "rssp1",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Joseph",
+        "diff": "3"
+      },
+      {
+        "w": "Dolphn",
+        "l": "Etay",
+        "diff": "2"
+      },
+      {
+        "w": "Smoke",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "insideoutside",
+        "diff": "2"
+      },
+      {
+        "w": "Tiger78",
+        "l": "SonnyDayz",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Joseph",
+        "diff": "3"
+      },
+      {
+        "w": "Dolphn",
+        "l": "Etay",
+        "diff": "2"
+      },
+      {
+        "w": "Smoke",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "Squigs",
+        "l": "insideoutside",
+        "diff": "2"
+      },
+      {
+        "w": "Tiger78",
+        "l": "SonnyDayz",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "brokenmotor",
+        "diff": "2"
+      },
+      {
+        "w": "Penxil",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "Materia5408",
+        "l": "eragon",
+        "diff": "4"
+      },
+      {
+        "w": "blerg",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "rssp1",
+        "l": "Holy Macaroni",
+        "diff": "2"
+      },
+      {
+        "w": "Arboursole",
+        "l": "brokenmotor",
+        "diff": "2"
+      },
+      {
+        "w": "Penxil",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "Materia5408",
+        "l": "eragon",
+        "diff": "4"
+      },
+      {
+        "w": "blerg",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "rssp1",
+        "l": "Holy Macaroni",
+        "diff": "2"
+      },
+      {
+        "w": "Joseph",
+        "l": "Etay",
+        "diff": "3"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "Tezzy",
+        "diff": "5"
+      },
+      {
+        "w": "Squigs",
+        "l": "Dolphn",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Smoke",
+        "diff": "5"
+      },
+      {
+        "w": "insideoutside",
+        "l": "SonnyDayz",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Etay",
+        "diff": "3"
+      },
+      {
+        "w": "Le Chonk",
+        "l": "Tezzy",
+        "diff": "5"
+      },
+      {
+        "w": "Squigs",
+        "l": "Dolphn",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Smoke",
+        "diff": "5"
+      },
+      {
+        "w": "insideoutside",
+        "l": "SonnyDayz",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "eragon",
+        "diff": "4"
+      },
+      {
+        "w": "Penxil",
+        "l": "blerg",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Materia5408",
+        "diff": "5"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "eragon",
+        "diff": "4"
+      },
+      {
+        "w": "Penxil",
+        "l": "blerg",
+        "diff": "2"
+      },
+      {
+        "w": "rssp1",
+        "l": "Materia5408",
+        "diff": "5"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Squigs",
+        "l": "Etay",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Tezzy",
+        "diff": "5"
+      },
+      {
+        "w": "Dolphn",
+        "l": "SonnyDayz",
+        "diff": "4"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Smoke",
+        "diff": "2"
+      },
+      {
+        "w": "Joseph",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Squigs",
+        "l": "Etay",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Tezzy",
+        "diff": "5"
+      },
+      {
+        "w": "Dolphn",
+        "l": "SonnyDayz",
+        "diff": "4"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Smoke",
+        "diff": "2"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "eragon",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "rssp1",
+        "l": "brokenmotor",
+        "diff": "2"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "Penxil",
+        "diff": "4"
+      },
+      {
+        "w": "Materia5408",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Arboursole",
+        "l": "eragon",
+        "diff": "3"
+      },
+      {
+        "w": "blerg",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "rssp1",
+        "l": "brokenmotor",
+        "diff": "2"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "Penxil",
+        "diff": "4"
+      },
+      {
+        "w": "Materia5408",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Squigs",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "SonnyDayz",
+        "l": "Etay",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "insideoutside",
+        "diff": "6"
+      },
+      {
+        "w": "Dolphn",
+        "l": "Smoke",
+        "diff": "3"
+      },
+      {
+        "w": "Joseph",
+        "l": "Squigs",
+        "diff": "3"
+      },
+      {
+        "w": "Tiger78",
+        "l": "Le Chonk",
+        "diff": "3"
+      },
+      {
+        "w": "SonnyDayz",
+        "l": "Etay",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "insideoutside",
+        "diff": "6"
+      },
+      {
+        "w": "Smoke",
+        "l": "Dolphn",
+        "diff": "3"
+      }
+    ],
+    [
+      {
+        "w": "Arboursole",
+        "l": "blerg",
+        "diff": "5"
+      },
+      {
+        "w": "eragon",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "Materia5408",
+        "diff": "2"
+      },
+      {
+        "w": "Arboursole",
+        "l": "blerg",
+        "diff": "5"
+      },
+      {
+        "w": "eragon",
+        "l": "rssp1",
+        "diff": "2"
+      },
+      {
+        "w": "Holy Macaroni",
+        "l": "PokemonDept",
+        "diff": "3"
+      },
+      {
+        "w": "brokenmotor",
+        "l": "Swaguora",
+        "diff": "3"
+      },
+      {
+        "w": "Penxil",
+        "l": "Materia5408",
+        "diff": "2"
+      },
+      {
+        "w": "Joseph",
+        "l": "Tiger78",
+        "diff": "4"
+      },
+      {
+        "w": "Squigs",
+        "l": "SonnyDayz",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Etay",
+        "l": "Smoke",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Dolphn",
+        "diff": "4"
+      },
+      {
+        "w": "Joseph",
+        "l": "Tiger78",
+        "diff": "4"
+      },
+      {
+        "w": "Squigs",
+        "l": "SonnyDayz",
+        "diff": "2"
+      },
+      {
+        "w": "insideoutside",
+        "l": "Le Chonk",
+        "diff": "4"
+      },
+      {
+        "w": "Smoke",
+        "l": "Etay",
+        "diff": "3"
+      },
+      {
+        "w": "Tezzy",
+        "l": "Dolphn",
+        "diff": "4"
+      }
+    ]
+  ],
+  "playoffs": [
+    [
+      {
+        "w": "Red Star Reshiram",
+        "l": "Rampaging Rufflets",
+        "diff": 3
+      },
+      {
+        "w": "The Silver Knights",
+        "l": "BRICK  BY BRICK",
+        "diff": 2
+      }
+    ],
+    [
+      {
+        "w": "Red Star Reshiram",
+        "l": "Mommy Medichams",
+        "diff": 2
+      },
+      {
+        "w": "GPT Gooners",
+        "l": "The Gholdenbros",
+        "diff": 2
+      },
+      {
+        "w": "The BROKEN MOTORS",
+        "l": "The Washington Football Team",
+        "diff": 3
+      },
+      {
+        "w": "Turbo Blazer$",
+        "l": "The Silver Knights",
+        "diff": 3
+      }
+    ],
+    [
+      {
+        "w": "GPT Gooners",
+        "l": "Red Star Reshiram",
+        "diff": 3
+      },
+      {
+        "w": "Turbo Blazer$",
+        "l": "The BROKEN MOTORS",
+        "diff": 3
+      }
+    ],
+    [
+      {
+        "w": "Turbo Blazer$",
+        "l": "GPT Gooners",
+        "diff": 1
+      }
+    ]
+  ]
+}
