@@ -24,7 +24,12 @@ const initializeELOChart = (seasons, includePlayoffs = true) => {
       season.playoffs.forEach((playoffGames, playoffIndex) => {
         let x_axis_index = x_axis.length + season.weeks.length + playoffIndex;
         weeks.push(`s${seasonIndex + 1}p${playoffIndex + 1}`);
-        elos = DataProcessor.processGames(playoffGames, elos, x_axis_index, season.metadata);
+        elos = DataProcessor.processGames(
+          playoffGames,
+          elos,
+          x_axis_index,
+          season.metadata
+        );
       });
     }
 
@@ -34,13 +39,26 @@ const initializeELOChart = (seasons, includePlayoffs = true) => {
   return { weeks: x_axis, elos: elos };
 };
 
+let data = {};
+
 // Main function to run the application
 const main = () => {
-  const urls = ["./data/s1.json", "./data/s2.json", "./data/s3.json", "./data/s4.json", "./data/s5.json", "./data/s6.json"];
+  const urls = [
+    "./data/s1.json",
+    "./data/s2.json",
+    "./data/s3.json",
+    "./data/s4.json",
+    "./data/s5.json",
+    "./data/s6.json",
+  ];
+  
+  // Hack to ensure checkbox really starts checked
+  document.getElementById('playoffsToggle').checked = true;
 
   // Fetch all data files
   Promise.all(urls.map(fetchData))
-    .then((data) => {
+    .then((fetchedData) => {
+      data = fetchedData;
       const { weeks, elos } = initializeELOChart(data);
       const config = Charting.createChartConfig(weeks, elos);
       const ctx = document.getElementById("eloChart").getContext("2d");
@@ -53,18 +71,10 @@ const main = () => {
 
 // Function to handle playoff toggle
 const handlePlayoffToggle = (includePlayoffs) => {
-  const urls = ["./data/s1.json", "./data/s2.json", "./data/s3.json", "./data/s4.json", "./data/s5.json", "./data/s6.json"];
-
-  Promise.all(urls.map(fetchData))
-    .then((data) => {
-      const { weeks, elos } = initializeELOChart(data, includePlayoffs);
-      const config = Charting.createChartConfig(weeks, elos);
-      const ctx = document.getElementById("eloChart").getContext("2d");
-      UIHandler.createChartElement(ctx, config);
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
+  const { weeks, elos } = initializeELOChart(data, includePlayoffs);
+  const config = Charting.createChartConfig(weeks, elos);
+  const ctx = document.getElementById("eloChart").getContext("2d");
+  UIHandler.createChartElement(ctx, config);
 };
 
 export { main, handlePlayoffToggle };

@@ -14,29 +14,20 @@ const handleChartClick = (event, chartInstance) => {
   if (activePoints.length) {
     const clickedDatasetIndex = activePoints[0].datasetIndex; // Identify clicked dataset
 
-    // Deselect if double-clicking...
-    if (clickedDatasetIndex === currentlySelected) {
-      deselectLine(chartInstance);
-    } else {
-      currentlySelected = clickedDatasetIndex;
-      // Fade out other lines
-      chartInstance.data.datasets.forEach((dataset, index) => {
-        dataset.borderWidth = index === clickedDatasetIndex ? 3 : 0.5; // Thicker line for the selected dataset
-      });
-    }
-    chartInstance.update(); // Redraw the chart
+    // Fade out other lines
+    chartInstance.data.datasets.forEach((dataset, index) => {
+      dataset.borderWidth = index === clickedDatasetIndex ? 3 : 0.5; // Thicker line for the selected dataset
+    });
   } else {
-    // ... or if just clicking anywhere on the canvas.
-    if (currentlySelected) {
-      deselectLine(chartInstance);
-      chartInstance.update();
-    }
+    deselectLine(chartInstance);
+    chartInstance.update();
   }
+
+  chartInstance.update(); // Redraw the chart
 };
 
 // Function to deselect line
 const deselectLine = (chartInstance) => {
-  currentlySelected = undefined;
   chartInstance.data.datasets.forEach((dataset) => {
     dataset.borderWidth = undefined; // Reset border width
   });
@@ -48,14 +39,15 @@ const createChartElement = (ctx, config) => {
     chart.data = config.data;
     chart.options = config.options;
     chart.update("resize");
+    deselectLine(chart);
   } else {
     chart = new Chart(ctx, config);
   }
 
   // Add event listeners for click and mouseout
-  ctx.canvas.addEventListener("click", (event) =>
-    handleChartClick(event, chart)
-  );
+  ctx.canvas.addEventListener("click", (event) => {
+    handleChartClick(event, chart);
+  });
 
   return chart;
 };
