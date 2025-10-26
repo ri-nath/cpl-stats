@@ -20,15 +20,22 @@ const normalizeName = (name, metadata=undefined) => {
   return name.toLowerCase()
 };
 
+const DEFAULT_ELO = 1500
+const FLOOR_ELO = null
+const HIGH_ELO = 1600
+const K = 50
+const K_HIGH_ELO = 20
+
 // Function to calculate ELO
 const calculateELO = (currentElo, opponentElo, outcome) => {
-  let K = 30; // K factor, https://pokemonshowdown.com/pages/ladderhelp
-  if (Math.min(currentElo, opponentElo) >= 1500) {
-     K = 15;
+  let k = K
+  if (Math.min(currentElo, opponentElo) >= HIGH_ELO) {
+     k = K_HIGH_ELO;
   }
   const expectedScore =
     1 / (1 + Math.pow(10, (opponentElo - currentElo) / 400));
-  return Math.round(currentElo + K * (outcome - expectedScore));
+  const elo = Math.round(currentElo + K * (outcome - expectedScore));
+  return FLOOR_ELO ? Math.max(elo, FLOOR_ELO) : elo
 };
 
 // Function to process games and update ELOs
@@ -42,17 +49,17 @@ const processGames = (games, elos, weekIndex, metadata=undefined) => {
     // Initialize ELOs for new players
     if (!updatedElos[winner]) {
       updatedElos[winner] = {
-        score: 1500,
+        score: DEFAULT_ELO,
         history: new Array(weekIndex).fill(null),
       };
-      updatedElos[winner].history[weekIndex - 1] = 1500;
+      updatedElos[winner].history[weekIndex - 1] = DEFAULT_ELO;
     }
     if (!updatedElos[loser]) {
       updatedElos[loser] = {
-        score: 1500,
+        score: DEFAULT_ELO,
         history: new Array(weekIndex).fill(null),
       };
-      updatedElos[loser].history[weekIndex - 1] = 1500;
+      updatedElos[loser].history[weekIndex - 1] = DEFAULT_ELO;
     }
 
     // Calculate new ELOs
