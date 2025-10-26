@@ -16,7 +16,7 @@ const handleChartClick = (event, chartInstance) => {
 
     // Fade out other lines
     chartInstance.data.datasets.forEach((dataset, index) => {
-      dataset.borderWidth = index === clickedDatasetIndex ? 3 : 0.5; // Thicker line for the selected dataset
+      dataset.borderWidth = index === clickedDatasetIndex ? 2 : 0.1; // Thicker line for the selected dataset
     });
   } else {
     deselectLine(chartInstance);
@@ -29,7 +29,7 @@ const handleChartClick = (event, chartInstance) => {
 // Function to deselect line
 const deselectLine = (chartInstance) => {
   chartInstance.data.datasets.forEach((dataset) => {
-    dataset.borderWidth = undefined; // Reset border width
+    dataset.borderWidth = 1.5; // Reset border width
   });
 };
 

@@ -94,6 +94,7 @@ const createChartConfig = (weeks, elos) => {
       },
       elements: {
         line: {
+          borderWidth: 1.5,
           tension: 0.4, // Smoother curves; set to 0 for straight lines
         },
         point: {
