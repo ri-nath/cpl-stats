@@ -120,6 +120,7 @@ const updateELOConfig = (config) => {
   HIGH_ELO = config.highElo || HIGH_ELO;
   K = config.k || K;
   K_HIGH_ELO = config.kHighElo || K_HIGH_ELO;
+  DEFAULT_ELO = config.startingElo || DEFAULT_ELO;
 };
 
 export { normalizeName, calculateELO, processGames, interpolateData, updateELOConfig };

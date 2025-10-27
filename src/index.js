@@ -57,7 +57,13 @@ const DEFAULT_ELO_CONFIG = {
   floorElo: null,
   highElo: 1500,
   kHighElo: 15,
+  startingElo: 1500
 };
+
+document.getElementById("startingElo").addEventListener("input", function () {
+  updateELOConfig({ startingElo: parseFloat(this.value) || DEFAULT_ELO_CONFIG.startingElo });
+  refresh();
+});
 
 document.getElementById("kFactor").addEventListener("input", function () {
   updateELOConfig({ k: parseFloat(this.value) || DEFAULT_ELO_CONFIG.k });
